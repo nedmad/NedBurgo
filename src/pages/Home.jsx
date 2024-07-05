@@ -1,11 +1,14 @@
-import { useContext } from "react"
-import { Contex } from "../hooks/CreateItems"
+import { Outlet } from "react-router-dom";
+import Headers from "../components/Headers";
+import Footer from "../components/Footer";
+
 
 export default function Home(){
-    const nome = useContext(Contex)
     return(
         <>
-        <h1>{nome}</h1>
+        <Headers/>
+        <Outlet/>
+        <Footer/>
         </>
     )
 }

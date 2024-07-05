@@ -1,0 +1,71 @@
+[
+  {
+      "image":"/batata/thumbnail_destaque_batata-rustica-.jpg",
+      "nome": "batata rustica",
+      "tipo":"batata"
+    },
+  {
+      "image":"/batata/thumbnail_destaque_fritas-com-molho-de-queijo-e-bacon.jpg",
+      "nome": "batata com molho de queijo",
+      "tipo":"batata"
+    },
+  {
+      "image":"/bebidas/thumbnail_destaque_agua-com-e-sem-gas.jpg",
+      "nome": "Agua com gas",
+      "tipo":"bebidas"
+    },
+  {
+      "image":"/bebidas/thumbnail_destaque_refrigerantes.jpg",
+      "nome": "Refrigerantes",
+      "tipo":"bebidas"
+    },
+  {
+      "image":"/bebidas/thumbnail_destaque_sucos-del-valle-e-integral.jpg",
+      "nome": "Sucos valle",
+      "tipo":"bebidas"
+    },
+
+    {
+      "image":"/hamburguer/thumbnail_destaque_catupiry-com-bacon.jpg",
+      "nome": "Sucos valle",
+      "tipo":"hamburguer"
+    },
+
+    
+    {
+      "image":"/hamburguer/thumbnail_destaque_cheddar.jpg",
+      "nome": "Sucos valle",
+      "tipo":"hamburguer"
+    },
+    {
+      "image":"/hamburguer/thumbnail_destaque_fraldinha-na-mostarda.jpg",
+      "nome": "Sucos valle",
+      "tipo":"hamburguer"
+    },
+    {
+      "image":"/hamburguer/thumbnail_destaque_quatro-queijos.jpg",
+      "nome": "Sucos valle",
+      "tipo":"hamburguer"
+    },
+    {
+      "image":"/hamburguer/thumbnail_destaque_smash-egg.jpg",
+      "nome": "Sucos valle",
+      "tipo":"hamburguer"
+    },
+    {
+      "image":"/hamburguer/thumbnail_destaque_tuba.jpg",
+      "nome": "Sucos valle",
+      "tipo":"hamburguer"
+    },
+    {
+      "image":"/sobremesa/thumbnail_destaque_brownie-com-sorvete.jpg",
+      "nome": "Sucos valle",
+      "tipo":"sobremesa"
+    },
+    {
+      "image":"/sobremesa/thumbnail_destaque_milk-shakes.jpg",
+      "nome": "Sucos valle",
+      "tipo":"sobremesa"
+    }
+
+]

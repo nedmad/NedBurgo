@@ -1,3 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  color: white;
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+* a {
+  text-decoration: none;
+}
 
+html, body {
+  background-color: rgb(30, 28, 28);
+}
+
+.body-section .body-options {
+  height: 100vh;
+  display: flex;
+}
+.body-section .body-options .apresentacion {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  transition: 0.5s all;
+  overflow: hidden;
+  flex: 1;
+}
+.body-section .body-options .apresentacion:hover {
+  flex: 3;
+}
+.body-section .body-options .apresentacion img {
+  min-width: 100px;
+  height: 100%;
+}
+.body-section .boasVindas {
+  width: 100vh;
+  height: 80vh;
+  width: 100%;
+  background-image: url("https://img.freepik.com/fotos-gratis/hamburguer-explosivo-com-legumes-e-queijo-derretido-em-fundo-preto-generative-ai_157027-1734.jpg?t=st=1718842171~exp=1718845771~hmac=e68872b7179bb6d7f8355c988ec02224e36e8a28618c485ff2b35c07af5877d0&w=1060");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: initial;
+}
+.body-section .boasVindas .filter {
+  width: 100%;
+  height: 80vh;
+  background-color: rgba(12, 12, 12, 0.575);
+  position: absolute;
+}
+.body-section .boasVindas .filter .info-filter {
+  margin: 100px 200px;
+  position: relative;
+}
+.body-section .boasVindas .filter .info-filter h1 {
+  font-size: 60px;
+}
+.body-section .body-cardapio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.body-section .body-cardapio .apresent-cardapio-body {
+  text-align: center;
+  padding-top: 100px;
+}
+.body-section .body-cardapio .apresent-cardapio-body span {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  font-style: normal;
+}
+.body-section .body-cardapio .bodyAll-cardapio {
+  width: 100%;
+}
+
+#nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(227, 14, 14, 0.731) !important;
+  z-index: 10;
+  padding: 0;
+}
+#nav #container-fluid {
+  gap: 30px 100px;
+  max-width: 1200px;
+}
+#nav #container-fluid img {
+  width: 70px;
+  border-radius: 100px;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+}
+#nav #container-fluid #navbarNavAltMarkup {
+  justify-content: left;
+  height: 100px;
+}
+#nav #container-fluid #navbarNavAltMarkup .navbar-nav {
+  text-align: center;
+  height: 100%;
+}
+#nav #container-fluid #navbarNavAltMarkup .navbar-nav a {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+#nav #container-fluid #navbarNavAltMarkup .navbar-nav a:hover {
+  color: aliceblue;
+  background-color: rgb(54, 49, 49);
+}
+
+.apresentation-cardapio {
+  height: 50vh;
+  background-image: url("https://s1.1zoom.me/b5050/620/Fast_food_Hamburger_Vegetables_Fire_Two_520128_3840x2400.jpg");
+  background-position: bottom;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apresentation-cardapio .filter {
+  background-color: rgba(0, 0, 0, 0.699);
+  height: 100%;
+  width: 100%;
+}
+
+.cardapio-options {
+  position: sticky;
+  z-index: 9;
+  top: 80px;
+  background-color: rgb(30, 28, 28);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+.cardapio-options a:hover span {
+  color: rgb(227, 14, 14);
+}
+
+.cardapio-food {
+  text-align: center;
+  width: 100%;
+  max-width: 1300px;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+}
+.cardapio-food div {
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+@keyframes hover {
+  0% {
+    width: 80%;
+    height: 80%;
+  }
+  50% {
+    width: 90%;
+    height: 90%;
+  }
+  100% {
+    width: 80%;
+    height: 80%;
+  }
+}
+.cardapio-food div:hover span {
+  opacity: 2;
+  animation: hover;
+  animation-duration: 0.5s;
+}
+.cardapio-food div span {
+  position: absolute;
+  z-index: 2;
+  font-size: 20px;
+  background-color: rgba(54, 49, 49, 0.881);
+  border-radius: 10px;
+  color: aliceblue;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s all;
+  text-shadow: 2px 4px 6px black;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cardapio-food div img {
+  border-radius: 3px;
+  z-index: 1;
+}
+
+footer {
+  padding: 50px;
+  background-color: rgb(197, 25, 25);
+  margin-top: 200px;
+}
 
 /*# sourceMappingURL=index.css.map */

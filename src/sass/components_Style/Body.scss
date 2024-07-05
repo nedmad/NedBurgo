@@ -1,0 +1,87 @@
+.body-section {
+    .body-options {
+        height: 100vh;
+        display: flex;
+
+
+        .apresentacion {
+            border-right: 2px solid black;
+            border-left: 2px solid black;
+            transition: .5s all;
+            overflow: hidden;
+            flex: 1;
+
+            &:hover {
+                flex: 3;
+            }
+
+            img {
+                min-width: 100px;
+                height: 100%;
+            }
+        }
+
+
+
+    }
+
+    .boasVindas {
+        width: 100vh;
+        height: 80vh;
+        width: 100%;
+        background-image: url("https://img.freepik.com/fotos-gratis/hamburguer-explosivo-com-legumes-e-queijo-derretido-em-fundo-preto-generative-ai_157027-1734.jpg?t=st=1718842171~exp=1718845771~hmac=e68872b7179bb6d7f8355c988ec02224e36e8a28618c485ff2b35c07af5877d0&w=1060");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: initial;
+
+        .filter {
+            width: 100%;
+            height: 80vh;
+            background-color: rgba(12, 12, 12, 0.575);
+            position: absolute;
+
+            .info-filter {
+                h1 {
+                    font-size: 60px;
+
+                }
+
+                margin: 100px 200px;
+                position: relative;
+            }
+        }
+    }
+
+    //fim do boas vindas
+    
+    .body-cardapio {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        .apresent-cardapio-body{
+            text-align: center;
+            padding-top: 100px;
+            
+            
+            span{
+                font-family: "Anton SC", sans-serif;
+                font-weight: 300;
+                font-size: 60px;
+                font-style: normal;
+            }
+        }
+
+        .bodyAll-cardapio {
+            width: 100%;
+
+        }
+
+        
+        //fim bodyAll-cardapio
+    }
+
+    //fim cardapio body
+}
+
+//fim do body section

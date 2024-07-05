@@ -1,0 +1,112 @@
+.apresentation-cardapio {
+    height: 50vh;
+    background-image: url('https://s1.1zoom.me/b5050/620/Fast_food_Hamburger_Vegetables_Fire_Two_520128_3840x2400.jpg');
+    background-position: bottom;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .filter {
+        background-color: rgba(0, 0, 0, 0.699);
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+
+
+.cardapio-options {
+    position: sticky;
+    z-index: 9;
+    top: 80px;
+    background-color: rgb(30, 28, 28);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
+
+    a {
+        &:hover span {
+            color: rgb(227, 14, 14);
+
+        }
+    }
+
+
+}
+
+.cardapio-food {
+    text-align: center;
+    width: 100%;
+    max-width: 1300px;
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+
+
+    div {
+        padding: 10px;
+        position: relative;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+
+        @keyframes hover {
+            0% {
+                width: 80%;
+                height: 80%;
+            }
+
+            50% {
+                width: 90%;
+                height: 90%;
+            }
+
+            100% {
+                width: 80%;
+                height: 80%;
+            }
+        }
+
+        &:hover span {
+            opacity: 2;
+            animation: hover;
+            animation-duration: 0.5s;
+        }
+
+        span {
+            position: absolute;
+            z-index: 2;
+            font-size: 20px;
+            background-color: rgba(54, 49, 49, 0.881);
+            border-radius: 10px;
+            color: aliceblue;
+            width: 80%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: .5s all;
+            text-shadow: 2px 4px 6px black;
+            font-family: "Anton SC", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+
+        }
+
+        img {
+            border-radius: 3px;
+            z-index: 1;
+
+        }
+    }
+}
