@@ -12,13 +12,13 @@ export default function CardapioCardapio() {
     <>
       <div className="cardapio-options">
         <Link ref={linkRef} to={"/cardapio-listagem/bebidas"}>
-          <span>Bebidas</span>
+          <span>Bebida</span>
         </Link>
         <Link to={"/cardapio-listagem/batata"}>
-          <span>Batatas</span>
+          <span>Batata</span>
         </Link>
         <Link to={"/cardapio-listagem/hamburgueres"}>
-          <span>Hamburgers</span>
+          <span>Hambur</span>
         </Link>
         <Link to={"/cardapio-listagem/sobremesas"}>
           <span>Sobremesas</span>

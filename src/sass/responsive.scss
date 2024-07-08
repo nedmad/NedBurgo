@@ -1,0 +1,32 @@
+@media screen and (max-width:992px) {
+    .boasVindas {
+        background-size: auto 100% !important;
+
+    }
+
+    .apresent-3 {
+        display: none;
+    }
+
+    .cardapio-food {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:767px) {
+    .apresent-2{
+        display: none;
+    }
+    .cardapio-food {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:588px) {
+    .cardapio-options {
+        span{
+            font-size: 23px !important;
+        }
+
+    }
+}

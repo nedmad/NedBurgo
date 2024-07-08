@@ -29,8 +29,8 @@ export default function Body() {
           <section className="boasVindas">
             <section className="filter">
               <div className="info-filter">
-                <h1>Seja bem vindo!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <h1>Seja bem vindo!</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </section>
           </section>
@@ -40,9 +40,7 @@ export default function Body() {
           <section className="apresent-cardapio-body">
             <strong>
               <h5>Aprecie sem moderacao!</h5>
-              <span>
-                Cardapio 
-              </span>
+              <span>Cardapio</span>
             </strong>
           </section>
           <CardapioBody />

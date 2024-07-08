@@ -14,16 +14,16 @@ export default function CardapioBody() {
       <section className="bodyAll-cardapio">
         <div className="cardapio-options">
           <Link ref={linkRef} to={"/bebidas"}>
-            <span>Bebidas</span>
+            <span>Bebida</span>
           </Link>
           <Link to={"/batata"}>
-            <span>Batatas</span>
+            <span>Batata</span>
           </Link>
           <Link to={"/hamburgueres"}>
-            <span>Hamburgueres</span>
+            <span>Hamburguer</span>
           </Link>
           <Link to={"/sobremesas"}>
-            <span>Sobremesas</span>
+            <span>Sobremesa</span>
           </Link>
         </div>
 

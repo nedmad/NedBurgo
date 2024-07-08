@@ -26,25 +26,35 @@
     }
 
     .boasVindas {
-        width: 100vh;
-        height: 80vh;
         width: 100%;
         background-image: url("https://img.freepik.com/fotos-gratis/hamburguer-explosivo-com-legumes-e-queijo-derretido-em-fundo-preto-generative-ai_157027-1734.jpg?t=st=1718842171~exp=1718845771~hmac=e68872b7179bb6d7f8355c988ec02224e36e8a28618c485ff2b35c07af5877d0&w=1060");
         background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-position: initial;
+        background-size: 100% 100%;
+        background-position: center;
+        padding: 10%;
 
         .filter {
             width: 100%;
-            height: 80vh;
-            background-color: rgba(12, 12, 12, 0.575);
-            position: absolute;
+            height: 100%;
+            border-radius: 10px;
+            background-color: rgba(12, 12, 12, 0.779);
+            box-shadow: 8px 10px 20px black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             .info-filter {
-                h1 {
-                    font-size: 60px;
+                min-width: 400px;
+                font-size: 60px;
+                text-align: center;
 
+
+                span {
+                    font-family: "Anton SC", sans-serif;
+                    font-weight: 300;
+                    font-style: normal;
                 }
+
 
                 margin: 100px 200px;
                 position: relative;
@@ -53,18 +63,18 @@
     }
 
     //fim do boas vindas
-    
+
     .body-cardapio {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        
-        .apresent-cardapio-body{
+
+        .apresent-cardapio-body {
             text-align: center;
             padding-top: 100px;
-            
-            
-            span{
+
+
+            span {
                 font-family: "Anton SC", sans-serif;
                 font-weight: 300;
                 font-size: 60px;
@@ -77,7 +87,7 @@
 
         }
 
-        
+
         //fim bodyAll-cardapio
     }
 

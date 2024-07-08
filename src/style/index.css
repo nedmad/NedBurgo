@@ -34,26 +34,34 @@ html, body {
   height: 100%;
 }
 .body-section .boasVindas {
-  width: 100vh;
-  height: 80vh;
   width: 100%;
   background-image: url("https://img.freepik.com/fotos-gratis/hamburguer-explosivo-com-legumes-e-queijo-derretido-em-fundo-preto-generative-ai_157027-1734.jpg?t=st=1718842171~exp=1718845771~hmac=e68872b7179bb6d7f8355c988ec02224e36e8a28618c485ff2b35c07af5877d0&w=1060");
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: initial;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 10%;
 }
 .body-section .boasVindas .filter {
   width: 100%;
-  height: 80vh;
-  background-color: rgba(12, 12, 12, 0.575);
-  position: absolute;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(12, 12, 12, 0.779);
+  box-shadow: 8px 10px 20px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .body-section .boasVindas .filter .info-filter {
+  min-width: 400px;
+  font-size: 60px;
+  text-align: center;
   margin: 100px 200px;
   position: relative;
 }
-.body-section .boasVindas .filter .info-filter h1 {
-  font-size: 60px;
+.body-section .boasVindas .filter .info-filter span {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 .body-section .body-cardapio {
   display: flex;
@@ -128,15 +136,15 @@ html, body {
 }
 
 .cardapio-options {
-  position: sticky;
-  z-index: 9;
   top: 80px;
   background-color: rgb(30, 28, 28);
-  padding: 30px;
   display: flex;
   justify-content: center;
-  gap: 40px;
   margin-bottom: 60px;
+  gap: 3%;
+}
+.cardapio-options a {
+  padding: 4px;
 }
 .cardapio-options a:hover span {
   color: rgb(227, 14, 14);
@@ -207,6 +215,31 @@ footer {
   padding: 50px;
   background-color: rgb(197, 25, 25);
   margin-top: 200px;
+}
+
+@media screen and (max-width: 992px) {
+  .boasVindas {
+    background-size: auto 100% !important;
+  }
+  .apresent-3 {
+    display: none;
+  }
+  .cardapio-food {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 767px) {
+  .apresent-2 {
+    display: none;
+  }
+  .cardapio-food {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 588px) {
+  .cardapio-options span {
+    font-size: 23px !important;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
